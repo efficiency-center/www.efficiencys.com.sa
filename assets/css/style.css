@@ -1,0 +1,83 @@
+@font-face {
+    font-family: GESS;
+    src: url("../fonts/GE_SS_Two_Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GESS_LITE;
+    src: url("../fonts/GE-SS-TV-Light_10.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GESS_2_LITE;
+    src: url("../fonts/GE-SS-Two-Light_28.otf") format("opentype");
+}
+
+body {
+  background-color: rgb(72, 72, 72);
+  background-image: url("../img/1576998896p-bufai7an-edits-1920-v2.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Montserrat', 'GESS_2_LITE', arial;
+}
+
+.wrapper{
+  background-image:linear-gradient(141deg, rgba(255, 255, 255, 0.801) 0%, rgba(255, 255, 255, 0.753) 75%);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+body.thankyou {
+  background-image: linear-gradient(141deg, rgba(255, 255, 255, 0.801) 0%, rgba(255, 255, 255, 0.753) 75%), url("../img/thankyou-bg.jpg") ;
+}
+
+body.thankyou .card{
+  background-color: rgba(255,255,255,0.8);
+}
+
+.ar-rounded-boxes{
+  border-radius: 25px;
+}
+
+.btn-success  {
+  background-color:#9ACD32;
+  color: white;
+  border-color: transparent;
+}
+
+.btn-warning{
+  background-color:#ffeaab;
+  border-color:#ffe8a3;
+}
+
+#logo{
+  width: 18vw;
+  min-width: 190px;
+
+}
+
+#map{
+  width:100%;
+  height:400px;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+
+  body {
+    background-position: top;
+    background-size: auto 100vh;
+    background-attachment: scroll;
+  }
+}
