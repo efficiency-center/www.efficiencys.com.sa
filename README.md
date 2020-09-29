@@ -4,9 +4,8 @@
 
 A simple HTML form (serverless) to submit information to email (booking details).
 
+# Current Features
 
-
-# Current Features 
 - Twitter Bootstrap
 - Font Awsome
 - HTML
@@ -15,6 +14,6 @@ A simple HTML form (serverless) to submit information to email (booking details)
 - and many others...
 
 # Contributors
-* **Arwa** - *IT Systems Analyst* - [arwas23](https://github.com/arwas23)
-* **Mohannad Otaibi** - *Front-End Development / Coding* - [mo9a7i](https://github.com/mo9a7i)
 
+- **Arwa** - _IT Systems Analyst_ - [arwas23](https://github.com/arwas23)
+- **Mohannad Otaibi** - _Front-End Development / Coding_ - [mo9a7i](https://github.com/mo9a7i)
