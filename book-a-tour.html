@@ -90,7 +90,7 @@
             </div>
 
             <div class="form">
-                <form action="https://formsubmit.co/Contact@efficiencys.com.sa" method="POST">
+                <form action="https://formsubmit.co/contact@efficiencys.com.sa" enctype="multipart/form-data" method="POST" onsubmit="return chkFileSize()">
                     <div class="mb-3">
                         <input type="text" class="form-control p-3" name="name" id="name" placeholder="Full name" required>
                     </div>
@@ -98,9 +98,12 @@
                         <input type="email" class="form-control p-3" name="email" id="email" placeholder="Email Address" required>
                     </div>
                     <div class="mb-3">
+                        <input type="text" class="form-control p-3" name="website" id="website" placeholder="Website or Instagram">
+                    </div>
+                    <div class="mb-3">
                         <input type="text" class="form-control p-3" name="phone" id="phone" placeholder="Phone" required>
                     </div>
-                    <select class="form-select" name="offie-type" aria-label="Default select example">
+                    <select class="form-select mb-3" name="offie-type" aria-label="Default select example">
                     <option selected>Select Office Type</option>
                     <option value="Indiviual Office">Indiviual Office</option>
                     <option value="Open Space Office">Open Space Office</option>
@@ -116,6 +119,12 @@
                     <div class="mb-3">
                         <textarea class="form-control p-3" id="message" name="message" placeholder="Message"></textarea>
                     </div>
+                    <div class="mb-3">
+                        <label for="CV" class="form-label">Upload company profile</label>
+                        <input class="mb-2 form-control form-control-lg" id='fileinput' name="CV" accept="image/*,.doc,.pdf" id="CV" type="file">
+                        <span id="errorspan" class="text-danger"></span>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
                     <div id="button" class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button></div>
                 </form>
 
@@ -136,7 +145,7 @@
                     <p class="p-0 mx-0 my-5 lh-1 fs-5"><small>Efficiency Center offers you modern fully-equipped shares and individual office spaces that suit all businesses.</small></p>
                     <ul class="list-inline fs-3">
                         <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://www.instagram.com/efficiencycenter/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://twitter.com/efficiency_c" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://twitter.com/Efficiency_c" target="_blank"><i class="fab fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://www.linkedin.com/posts/efficiency-center_efficiency-center-business-center-at-khobar-activity-6770807411331616768-slYj" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
@@ -168,7 +177,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
-    <script src="../app.js"></script>
+    <script src="script.js"></script>
 
 </body>
 

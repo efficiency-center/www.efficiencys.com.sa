@@ -1,12 +1,12 @@
-header{
+header {
     background-color: #fafafa;
 }
 
 .aboutus {
-background: url(../imgs/about-us/dshdfghsfhsf.png);
-background-repeat: no-repeat;
-background-position: top right;
-background-size: cover;
+    background: url(../imgs/about-us/dshdfghsfhsf.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
 }
 
 .services .card {
@@ -15,11 +15,11 @@ background-size: cover;
     position: relative;
 }
 
-.services .card div{
+.services .card div {
     opacity: 0.1;
 }
 
-.services .card:hover{
+.services .card:hover {
     transform: translateY(-12px);
     transition: all .3s;
     transform: scale(1.1);
@@ -27,75 +27,74 @@ background-size: cover;
     background-blend-mode: luminosity;
 }
 
-.services .card:hover div{
+.services .card:hover div {
     opacity: 1;
-    z-index:2;
+    z-index: 2;
     position: relative;
 }
 
-.services .card:hover::after{
-    content:" ";
-    display:block;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+.services .card:hover::after {
+    content: " ";
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     position: absolute;
     background-color: #02638b;
     opacity: 0.8;
-    z-index:1;
+    z-index: 1;
 }
 
-.services .card p{
-    color:white;
+.services .card p {
+    color: white;
     font-size: 1em;
 }
 
-.features .card{
+.features .card {
     position: relative;
-    border-color:#083d53;
+    border-color: #083d53;
     background-color: #f5f5f5;
-    color:#083d53;
+    color: #083d53;
 }
 
 .col.mb-5 {
     height: 420px;
 }
 
-.features .card:hover{
+.features .card:hover {
     background-color: #083d53;
-    color:#f5f5f5;
+    color: #f5f5f5;
     transform: translateY(-12px);
     transition: all .3s;
     transform: scale(1.1);
-
 }
 
-.features .card:hover p{
-    color:#f5f5f5;
-
+.features .card:hover p {
+    color: #f5f5f5;
 }
 
-.features .card .number{
-    position:absolute;
-    top:0;
-    right:0;
-    font-size:8rem;
-    opacity:0.1;
+.features .card .number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 8rem;
+    opacity: 0.1;
 }
 
-
-.partners .col img{
-    -webkit-filter: grayscale(100%) brightness(5) contrast(0); /* Safari 6.0 - 9.0 */
+.partners .col img {
+    -webkit-filter: grayscale(100%) brightness(5) contrast(0);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%) brightness(5) contrast(0);
 }
 
-.partners .col:hover img{
-    -webkit-filter:none;
+.partners .col:hover img {
+    -webkit-filter: none;
     filter: none;
 }
-  
-.contact, .services {
+
+.contact,
+.services {
     background-position: center;
     background-image: url(../imgs/pictures/texture.png);
     background-size: cover;
@@ -108,17 +107,17 @@ background-size: cover;
     border-bottom: 2px solid #bbbbbb;
     font-size: 1.2rem;
     border-radius: 0;
-  }
+}
 
 .contact form ::placeholder {
-    color:#bbbbbb;
+    color: #bbbbbb;
 }
 
-.footer{
-background-color: #333;
+.footer {
+    background-color: #333;
 }
 
-.contact-box  {
+.contact-box {
     background-color: #333;
 }
 
