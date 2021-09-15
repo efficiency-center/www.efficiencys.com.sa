@@ -1,28 +1,28 @@
-.btn-primary{
+.btn-primary {
     background-color: #083d53;
     padding: 10px 15px;
     border: none;
     border-radius: 0;
 }
 
-.btn-secondary{
+.btn-secondary {
     color: #6c757d;
     border-color: #6c757d;
     background: none;
-    border:none;
+    border: none;
 }
 
-h1{
+h1 {
     font-size: 45px;
     font-weight: 500;
 }
 
-p{
-    font-size:1.5rem;
+p {
+    font-size: 1.5rem;
     color: #828282;
 }
 
-ul li{
-    font-size:1.1rem;
+ul li {
+    font-size: 1.1rem;
     color: #828282;
 }

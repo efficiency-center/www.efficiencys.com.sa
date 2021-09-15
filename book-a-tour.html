@@ -27,6 +27,11 @@
     <!-- favicon -->
     <link rel="icon" type="image/png" href="assets/imgs/logos/mobileLogo.png">
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <!-- Meta Info -->
     <meta property="og:image" content="https://dev.efficiencys.com.sa/assets/imgs/pictures/Icon.jpg">
     <meta content="Book a tour and get your awesome work space now!" name="description">
@@ -64,20 +69,6 @@
         </div>
     </header>
 
-    <!-- ____________________________________________________________________________ Map Section ______________________________________________ -->
-
-    <section id="map" class="row flex-lg-row g-0 flex-sm-column flex-column-reverse">
-        <iframe src="https://snazzymaps.com/embed/281438" class="col-lg-9 " width="100%" height="600px" style="border:none;"></iframe>
-
-        <!-- contact box -->
-        <div class="contact-box col-lg-3 py-5 px-5">
-            <p>Find us at Al-Khobar - Prince Turky St - Cornich Park - Bulding 6919</p>
-            <a class="btn btn-light" href="tel:+966581115550"><i class="fas fa-phone-alt"></i> Book now</a>
-        </div>
-
-    </section>
-
-
     <!-- ____________________________________________________________________________ Form Section ______________________________________________ -->
 
 
@@ -86,7 +77,7 @@
             <div class="title text-center">
                 <img src="assets/imgs/logos/mobileLogo.png" loading="lazy" alt="" height="100">
                 <h1>Book a tour</h1>
-                <p class="text-muted">Contact us about anything related to our company or services.</p>
+                <p class="text-muted">Contact us to take you on a tour in our branch. One of our representatives will get back to you shortly</p>
             </div>
 
             <div class="form">
@@ -98,18 +89,11 @@
                         <input type="email" class="form-control p-3" name="email" id="email" placeholder="Email Address" required>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control p-3" name="website" id="website" placeholder="Website or Instagram">
+                        <input type="text" class="form-control p-3" name="phone" id="phone" placeholder="Mobile Number" required>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control p-3" name="phone" id="phone" placeholder="Phone" required>
+                        <input type="text" class="form-control p-3" name="website" id="website" placeholder="Website or Instagram">
                     </div>
-                    <select class="form-select mb-3" name="offie-type" aria-label="Default select example">
-                    <option selected>Select Office Type</option>
-                    <option value="Indiviual Office">Indiviual Office</option>
-                    <option value="Open Space Office">Open Space Office</option>
-                    <option value="Meeting Room">Meeting Room</option>
-                    <option value="Cnoference Room">Cnoference Room</option>
-                  </select>
                     <div class="mb-3">
                         <input type="date" class="form-control" name="date" id="date">
                     </div>
@@ -130,7 +114,22 @@
 
             </div>
         </div>
+
+        <section id="map" class="text-center pt-5 my-5">
+            <iframe src="https://snazzymaps.com/embed/281438" width="80%" height="600px" style="border:none;"></iframe>
+        </section>
     </section>
+
+    <!-- ____________________________________________________________________________ Map Section ______________________________________________ -->
+
+
+
+    <!-- contact box -->
+    <!-- <div class="contact-box col-lg-3 py-5 px-5">
+            <p>Find us at Al-Khobar - Prince Turky St - Cornich Park - Bulding 6919</p>
+            <a class="btn btn-light" href="tel:+966581115550"><i class="fas fa-phone-alt"></i> Book now</a>
+        </div> -->
+
 
 
     <!-- ____________________________________________________________________________ Footer Section ______________________________________________ -->
@@ -142,11 +141,14 @@
 
                 <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
                     <img src="assets/imgs/logos/footerLogo.png" alt="" width="220px">
-                    <p class="p-0 mx-0 my-5 lh-1 fs-5"><small>Efficiency Center offers you modern fully-equipped shares and individual office spaces that suit all businesses.</small></p>
+                    <p class="p-0 mx-0 my-5 lh-1 fs-5"><small>Efficiency Center offers you modern fully-equipped coworking space that is suitable for your business.</small></p>
                     <ul class="list-inline fs-3">
                         <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://www.instagram.com/efficiencycenter/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                         <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://twitter.com/Efficiency_c" target="_blank"><i class="fab fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://www.linkedin.com/posts/efficiency-center_efficiency-center-business-center-at-khobar-activity-6770807411331616768-slYj" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://web.whatsapp.com/send?phone=966581115550" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                        <li class="list-inline-item"><a class="link-light text-decoration-none" href="https://www.google.com/maps/place/Efficiency+Center+-+Business+Incu./@26.3040163,50.2141848,14z/data=!4m9!1m2!2m1!1z2YXYsdmD2LIg2KfZhNmD2YHYp9ih2Kk!3m5!1s0x3e49e9a50968d01d:0x2bd0cd968fddc405!8m2!3d26.3076151!4d50.2243207!15sChfZhdix2YPYsiDYp9mE2YPZgdin2KHYqZIBD2J1c2luZXNzX2NlbnRlcg"
+                                target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>
                     </ul>
                 </div>
 
@@ -154,8 +156,8 @@
                     <h5>Important Links</h5>
                     <ul class="list-unstyled lh-lg">
                         <li><a class="link-light text-decoration-none" href="terms-and-conditions.html">Terms and Conditions</a></li>
-                        <li><a class="link-light text-decoration-none" href="privacy-poilcy.html">Privacy policy</a></li>
-                        <li><a class="link-light text-decoration-none" href="media/PDF/Efficiency Center Cornich Park ENGLISH.pdf" target="_blank">Our Profile</a></li>
+                        <li><a class="link-light text-decoration-none" href="privacy-poilcy.html">Privacy Policy</a></li>
+                        <li><a class="link-light text-decoration-none" href="assets/files/pdf/Efficiency Center Cornich Park ENGLISH.pdf" target="_blank">Our Profile</a></li>
                         <li><a class="link-light text-decoration-none" href="FAQ.html">FAQs</a></li>
                         <li><a class="link-light text-decoration-none" href="jobs.html">Jobs</a></li>
                     </ul>
@@ -166,7 +168,7 @@
                     <ul class="list-unstyled lh-lg">
                         <li><i class="fas fa-phone-square-alt"></i> <span><a class="link-light text-decoration-none" href="tel:+966581115550">+966581115550</a></span></li>
                         <li><i class="fas fa-envelope-square"></i> <span><a class="link-light text-decoration-none" href="mailto:Contact@efficiencys.com.sa">Contact@efficiencys.com.sa</a></span></li>
-                        <li><i class="fas fa-map-marker-alt"></i> <span><a class="link-light text-decoration-none" href="https://goo.gl/maps/beApuSyPjWUAt2mB7" target="_blank">6919 Prince Turki ST, Cornich Park, Alhobar</a></span></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span><a class="link-light text-decoration-none" href="https://goo.gl/maps/beApuSyPjWUAt2mB7" target="_blank">6919 Prince Turki ST, Cornich Park, Al-Khobar</a></span></li>
                     </ul>
                 </div>
             </div>

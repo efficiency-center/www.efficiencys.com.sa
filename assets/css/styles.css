@@ -1,9 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #fafafa;
 }
 
 .aboutus {
-    background: url(../imgs/about-us/dshdfghsfhsf.png);
+    /* background: url(../imgs/about-us/dshdfghsfhsf.png); */
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -123,4 +127,11 @@ header {
 
 .contact-box p {
     color: white;
+}
+
+@media only screen and (max-width: 1300px) {
+    .featp {
+        font-size: 1.2rem;
+        color: #828282;
+    }
 }
