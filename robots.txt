@@ -1,4 +1,4 @@
-User-agent: *\
-Disallow: \
-Disallow: /cgi-bin/\
-Sitemap: https://www.efficiencys.com.sa/sitemap.xml\
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://www.efficiencys.com.sa/sitemap.xml
